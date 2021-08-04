@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import styles from '../shared/Home.module.css'
-import Header from '@components/header'
-
+import Header from 'components/header'
+import Navigation from '@components/navigation'
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Forwardslash Development</title>
         <meta name="description" content="Modern web development" />
@@ -13,7 +12,8 @@ export default function Home() {
 
       <main>
         <Header />
+        <Navigation />
       </main>
-    </div>
+    </>
   )
 }
