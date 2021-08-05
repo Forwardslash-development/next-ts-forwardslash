@@ -1,19 +1,12 @@
-import Head from 'next/head'
-import Header from 'components/header'
-import Navigation from '@components/navigation'
+import Page from '@layout/page'
+
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Forwardslash Development</title>
-        <meta name="description" content="Modern web development" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header />
-        <Navigation />
-      </main>
-    </>
+    <Page
+      meta={{
+        title: 'Forwardslash Development',
+        description: 'Modern Application Development',
+      }}
+    />
   )
 }

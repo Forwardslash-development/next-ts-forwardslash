@@ -6,13 +6,14 @@ const forwardslashStyles = css`
   top: 0.025em;
   margin-left: -0.75rem;
   margin-right: -0.75rem;
+  color: #ffffff;
 `
 const logoStyles = css`
-  color-text: var(--color-text-invert);
   font-size: 4rem;
   display: block;
   text-align: center;
   font-variant: small-caps;
+  color: #fff;
 `
 
 const Logo = () => (
