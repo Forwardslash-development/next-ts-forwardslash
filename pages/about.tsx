@@ -56,7 +56,7 @@ const footer = css`
 const About = () => (
   <Page
     meta={{
-      title: 'About :: Forwardslash Development',
+      title: 'About',
       description: 'Modern Application Development',
     }}
   >
